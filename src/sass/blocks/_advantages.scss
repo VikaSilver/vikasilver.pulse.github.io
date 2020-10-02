@@ -2,12 +2,6 @@
     min-height: 470px;
     padding: 70px 0 95px 0;
     background: url(../../img/bg/bg_grey.jpg) center (center/cover) no-repeat;
-    &__heading {
-        color: #0d0d0d;
-        font-size: 30px;
-        font-weight: 700;
-        text-align: center;
-    }
     &__icons {
         margin-top: 65px;
         display: flex;
@@ -25,7 +19,7 @@
             margin: 0 auto;
             margin-bottom: 20px;
         }
-        span {
+        a {
             color: #ff0000;
             text-decoration: underline;
         }

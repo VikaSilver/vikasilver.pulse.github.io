@@ -6,11 +6,12 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="sass/css/style.min.css">
     
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -53,34 +54,74 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
-            <h2 class="advantages__heading">НАШИ ПРЕИМУЩЕСТВА</h2>
-                <div class="advantages__icons">
-                    <div class="advantages__icon">
-                        <img src="icons/cup.png" alt="cup">
-                        <h2 class="advantages__header">Делимся опытом</h2>
-                        Наши сотрудники всегда готовы поделиться своим опытом, 
-                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
-                    </div>
-                    <div class="advantages__icon">
-                        <img src="icons/heart.png" alt="heart">
-                        <h2 class="advantages__header">Заботимся о здоровье</h2>
-                        Мы работаем для того, 
-                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
-                    </div>
-                    <div class="advantages__icon">
-                        <img src="icons/shoe.png" alt="shoe">
-                        <h2 class="advantages__header">Учим бегать</h2>
-                        Помогаем с обучением 
-                        правильной технике бега! 
-                        Дружим с крупнейшей школой бега в России - <span>I LOVE RUNNING.</span>
-                    </div>
-                    
+            <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class="advantages__icons">
+                <div class="advantages__icon">
+                    <img src="icons/cup.png" alt="cup">
+                    <h2 class="advantages__header">Делимся опытом</h2>
+                    Наши сотрудники всегда готовы поделиться своим опытом, 
+                    так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                 </div>
+                <div class="advantages__icon">
+                    <img src="icons/heart.png" alt="heart">
+                    <h2 class="advantages__header">Заботимся о здоровье</h2>
+                    Мы работаем для того, 
+                    чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
+                </div>
+                <div class="advantages__icon">
+                    <img src="icons/shoe.png" alt="shoe">
+                    <h2 class="advantages__header">Учим бегать</h2>
+                    Помогаем с обучением 
+                    правильной технике бега! 
+                    Дружим с крупнейшей школой бега в России - 
+                    <a href="#">I LOVE RUNNING.</a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра
+            </h2>
+            <h2 class="consultation__descr">Просто заполните форму заявки <br>
+                и мы перезвоним вам в течении 10 минут
+            </h2>
+            <form class="feed-form" action="#">
+                <input required placeholder="Ваше имя" type="text">
+                <input required placeholder="Ваш телефон" type="tel">
+                <input required placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">заказать консультацию</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/bg/bg_clock.jpg" alt="clock">
+                </div>
+                <div>
+                    <img src="img/clock_2.jpg" alt="clock">
+                </div>
+                <div>
+                    <img src="img/clock_3.jpg" alt="clock">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
