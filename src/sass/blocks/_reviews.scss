@@ -1,0 +1,45 @@
+.reviews {
+    min-height: 800px;
+    &__clients {
+        padding-bottom: 70px;
+        &_client {
+            padding-top: 100px;
+            img {
+                display: block;
+                float: left;
+                width: 169px;
+                height: 169px;      
+            }
+            h3 {
+                display: block;
+                margin-left: 250px;
+                color: #0d0d0d;
+                font-size: 18px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: normal;
+                text-align: left;
+            }
+            h4 {
+                display: block;
+                margin-left: 190px;
+                padding-left: 60px;
+                font-weight: 400;
+                font-size: 14px;
+                color: #646464;
+            }
+            &_text {
+                display: block;
+                text-align: left;
+                margin-left: 250px;
+                color: #504c4c;
+                font-size: 16px;
+                font-weight: 500;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: 1.3em;
+                text-align: left;
+            }
+        }
+    }
+}
