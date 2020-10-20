@@ -8,7 +8,7 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                    dots: true,
+                    dots: false,
                     arrows: false
                 }
             }
@@ -51,7 +51,7 @@ $(document).ready(function(){
     });
 
     function validateForms(form){
-        $(form).validate({
+        $('form').validate({
             rules: {
                 name: {
                     required: true,
@@ -109,7 +109,7 @@ $(document).ready(function(){
         }
     });
 
-    $("a[href=#up]").click(function(){
+     $("a[href=#up]").click(function(){
         const _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
