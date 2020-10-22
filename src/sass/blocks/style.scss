@@ -1,28 +1,2 @@
-@import '../libs/bootstrap-reboot.min';
-@import '../libs/slick';
-@import '../libs/stylesheet';
-@import '../libs/animate';
+@import '../../fonts/stylesheet.css';
 
-@import '../base/variables';
-* {
-    font-family: 'Museo Sans Cyrl', sans-serif;
-}
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-}
-@import '../base/animations';
-@import 'promo';
-@import 'header';
-@import 'buttons';
-@import 'advantages';
-@import 'title';
-@import 'consultation';
-@import 'forms';
-@import 'carousel';
-@import 'catalog';
-@import 'reviews';
-@import 'footer';
-@import 'modal';
-@import 'pageup';
-@import 'media';
