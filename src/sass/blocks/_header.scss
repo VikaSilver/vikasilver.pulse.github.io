@@ -1,0 +1,39 @@
+.header {
+    min-height: 85px;
+    min-width: 1142px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 30px;
+        &-country {
+            margin-left: -40px;
+            font-size: 14px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+        }
+        &_text {
+            margin-top: -15px;
+            margin-left: -40px;
+            color: #242424;
+            font-size: 12px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 18px;
+            a {
+                color: #242424;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #00c2f0;
+            }
+        }
+        img.flags {
+            margin-top: 0;
+            width: 28px;
+            height: 21px;
+            float: left;
+        }
+    }
+}

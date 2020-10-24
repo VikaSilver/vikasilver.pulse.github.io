@@ -1,2 +1,16 @@
 @import '../../fonts/stylesheet.css';
 
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import '../base/mixins';
+@import 'header';
+@import 'promo';
+@import 'btn';
+@import 'advantage'

@@ -1,0 +1,66 @@
+.promo {
+    min-height: 700px;
+    background: url(../../img/bg/4-layers.jpg) center (center/cover) no-repeat;
+    &__content {
+        
+    }
+    &__prengi {
+        display: flex;
+        flex-direction: column;
+        padding-top: 39px;
+        h1 {
+            padding-top: 123px;
+            color: #ffffff;
+            font-size: 45px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 48px;
+            text-align: left;
+        }
+        h2 {
+            padding-top: -37px;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            text-align: left;
+        }
+    }
+    &__menu {
+        position: relative;
+        ul {
+            display: flex;
+            flex-direction: row-reverse;
+            list-style: none;
+            li {
+                display: absolute;
+                transform: translateY(-500px);
+                padding: 0 20px;
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: normal;
+                line-height: normal;
+                a {
+                    display: inline;
+                    color: #ffffff;
+                    text-decoration: none;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+    &__smart {
+        position: relative;
+        img {
+            margin-top: 22px;
+            display: block;
+            position: absolute;
+            transform: translate(700px, -490px);
+        }
+    }
+}
