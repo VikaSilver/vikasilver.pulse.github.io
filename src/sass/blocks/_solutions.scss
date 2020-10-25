@@ -1,0 +1,41 @@
+.solutions {
+    min-height: 890px;
+    background: url(../../img/bg/bg_woman.jpg) center (center/cover) no-repeat;
+    .title {
+        padding-top: 80px;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__tab {
+        padding-top: 40px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-evenly;
+            .menu_item {
+                list-style: none;
+                a {
+                    padding: 15px 48px;
+                    border-right: solid 1px rgba(255, 255, 255, 0.4);
+                    border-left: solid 1px rgba(255, 255, 255, 0.4);
+                    border-top: solid 1px rgba(255, 255, 255, 0.6);
+                    border-bottom: solid 1px rgba(255, 255, 255, 0.6);
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 25.99px;
+                    text-decoration: none;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }

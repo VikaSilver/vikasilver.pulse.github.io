@@ -1,0 +1,35 @@
+.carousel {
+    padding-top: 30px;
+    img {
+        margin: 0 auto;
+        border: none;
+        &:active {
+            border: none;
+        }
+    }
+    &__inner {
+        position: relative;
+        margin: 0 auto;
+    }
+    .slick-prev, .slick-next {
+        display: inline;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background: url('../../img/bg/bg_woman.jpg') 0 0 / 1% no-repeat;
+        cursor: pointer;
+        &:active {
+            border: none;
+        }
+        img {
+            width: 20px;
+            height: 62px;
+        }
+    }
+    .slick-next {
+        right: -66px;
+        left: auto;
+    }
+}
