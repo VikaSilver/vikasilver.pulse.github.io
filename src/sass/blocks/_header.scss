@@ -1,12 +1,12 @@
 .header {
     min-height: 85px;
-    min-width: 1142px;
     &__content {
         display: flex;
         justify-content: space-between;
         margin: 20px 30px;
         &-country {
-            margin-left: -40px;
+            margin-left: -15px;
+            margin-top: -5px;
             font-size: 14px;
             font-weight: 700;
             font-style: normal;
@@ -14,7 +14,7 @@
         }
         &_text {
             margin-top: -15px;
-            margin-left: -40px;
+            margin-left: -15px;
             color: #242424;
             font-size: 12px;
             font-weight: 300;
