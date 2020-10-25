@@ -1,10 +1,9 @@
-.advantage {
+.prengi {
     min-height: 896px;
     &__content {
         padding-top: 80px;
         .arrow_down {
             display: block;
-            padding-top: 80px;
             margin: 0 auto;
         }
         h2 {
@@ -27,6 +26,16 @@
             margin: 0px 10px; 
             border: 1px solid #ececec;
         }
+        p {
+            transform: translateY(-100px);
+            color: #393939;
+            font-size: 18px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            text-align: center;
+        }
     }
     &__img_two {
         display: flex;
@@ -35,6 +44,16 @@
         img {
             margin: 0px 10px; 
             border: 1px solid #ececec;
+        }
+        p {
+            transform: translateY(-100px);
+            color: #393939;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 26px;
+            text-align: center;
         }
     }
 }
