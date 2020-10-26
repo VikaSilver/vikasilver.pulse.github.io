@@ -1,0 +1,26 @@
+.start {
+    min-height: 600px;
+    margin-top: -150px;
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+    h2 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        color: #393939;
+        font-size: 30px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 36px;
+        text-align: center;
+    }
+    button {
+        display: block;
+        margin: 0 auto;
+        &:hover {
+            box-shadow: 5px 5px 25px $main-color;
+        }
+    }
+}

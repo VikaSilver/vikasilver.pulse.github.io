@@ -1,0 +1,140 @@
+.footer {
+    min-height: 500px;
+    background: url(../../img/bg/footer.jpg) center (center/cover) no-repeat;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+        &-col_one {
+            text-align: left;
+            h4 {
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 600;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                color: #ffffff;
+                text-align: left;
+            }
+            img {
+                padding-top: 20px;
+                display: block;
+                margin-left: -5px;
+                width: 177px;
+                height: 61px;
+            }
+            ul {
+                display: inline;
+                text-align: left;
+                li {
+                    text-align: left;
+                    color: rgba($color: #ffffff, $alpha: 0.8);
+                    font-size: 14px;
+                    font-weight: 300;
+                    list-style: none;
+                }
+            }
+        }
+        &-col_two {
+            h4 {
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 600;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                color: #ffffff;
+                text-align: left;
+            }
+            ul {
+                display: inline;
+                text-align: left;
+                li {
+                    display: inline;
+                    color: rgba($color: #ffffff, $alpha: 0.8);
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 19px;
+                    cursor: pointer;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        &-col_three {
+            h4 {
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 600;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                color: #ffffff;
+                text-align: left;
+            }
+            ul {
+                display: inline;
+                text-align: left;
+                li {
+                    display: inline;
+                    color: rgba($color: #ffffff, $alpha: 0.8);
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 19px;
+                    cursor: pointer;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        &-col_four {
+            h4 {
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 600;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                color: #ffffff;
+                text-align: left;
+            }
+            ul {
+                display: inline;
+                text-align: left;
+                li {
+                    display: inline;
+                    color: rgba($color: #ffffff, $alpha: 0.8);
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 19px;
+                    cursor: pointer;
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+    hr {
+        margin-top: 44px;
+        width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+    }
+    .text {
+        padding-top: 15px;
+        text-align: center;
+        color: rgba($color: #ffffff, $alpha: 0.8);
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
